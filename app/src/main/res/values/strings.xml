@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AUST GPA Calculator</string>
+    <string name="Select_Dept">Select Department</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+
+
+    <string name="ss">Select Semester:</string>
+
+    <string name="em">Enter Marks:</string>
+    <string name="er">Enter ID:</string>
+    <string name="ssn">Session:</string>
+    <string name="gpa">GPA</string>
+
+    <string name="us">Hello!!\n\n\"AUST GPA Calculator\"-this application has been developed by
+                      Istiak Ahmed and Md. Siam Ansary for their semester project of CSE 2200:Software
+                      Development Lab III.\n\nThis application is only for the students of Ahsanullah
+                      University of Science and Technology.They can have their gpa calculated by entering
+                      their scores in courses.\n\nThis application is not flawless and does not have
+                      all the necessary features but we look forward to work on its betterment.\n
+    </string>
+
+    <string name="hlp">
+        This application is for the students of Ahsanullah University of Science and Technology.\nFrom the first
+        activity , students have various options.\nThere is a simple calculator for the use of students.
+        They can do addition , subtraction , multiplication and division using it.\nThe About page tells about
+        its developers.\nStudents can select their desired departments. Architecture department has ten semesters
+        while all the other departments have eight.Selecting their semester , they will be able to calculate
+        their GPA.There are options for entering their ID , Session and marks in courses. Pressing the
+        "GPA" button , thy will have the result. If they press "SAVE" button , information would be recorded .
+        Students can check their records and delete them . They can delete single records entering the
+        record number and also there is option for clearing all the records at the same time.</string>
+
+    <string name="one1">First Year \nFirst Semester</string>
+    <string name="one2">First Year \nSecond Semester</string>
+    <string name="two1">Second Year \nFirst Semester</string>
+    <string name="two2">Second Year \nSecond Semester</string>
+    <string name="three1">Third Year \nFirst Semester</string>
+    <string name="three2">Third Year \nSecond Semester</string>
+    <string name="four1">Fourth Year \nFirst Semester</string>
+    <string name="four2">Fourth Year \nSecond Semester</string>
+    <string name="five1">Fifth Year \nFirst Semester</string>
+    <string name="five2">Fifth Year \nSecond Semester</string>
+
+
+</resources>

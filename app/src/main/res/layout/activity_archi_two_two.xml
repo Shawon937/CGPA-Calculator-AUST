@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padTBLR"
+    android:paddingLeft="@dimen/padTBLR"
+    android:paddingRight="@dimen/padTBLR"
+    android:paddingTop="@dimen/padTBLR"
+    android:background="@color/lightYellow"
+    tools:context="com.example.siam_ansary.austgpacalculator00.ArchiTwoTwo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/enterARC22ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/er"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc22IDread"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ssn"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc22Session"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/enterMarks22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enterARC22ID"
+                android:layout_marginTop="10dp"
+                android:text="@string/em"
+                android:textColor="@color/brown"
+                android:textSize="@dimen/txtsz01" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2225"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/enterMarks22"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2225:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2225read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/arc2229"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2229:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2229read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2223"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2223:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2223read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2201"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2201:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2201read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2241"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2241:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2241read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2204"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2204:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2204read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2202"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2202:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2202read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/arc2226"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ARC 2226:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/arc2226read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonGPAarch22"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/silver"
+        android:onClick="archi22"
+        android:text="@string/gpa"
+        android:textSize="@dimen/txtsz01"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

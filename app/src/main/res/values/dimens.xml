@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="txtsz01">25dp</dimen>
+    <dimen name="txtsz02">20dp</dimen>
+    <dimen name="diffInDeptSelAct">7dp</dimen>
+
+    <dimen name="padTBLR">16dp</dimen>
+
+    <dimen name="archiTH">500dp</dimen>
+    <dimen name="archiSH">100dp</dimen>
+    <dimen name="archiMargin">2dp</dimen>
+    <dimen name="deptMargin">7dp</dimen>
+    <dimen name="archiH">96dp</dimen>
+    <dimen name="archiW">156dp</dimen>
+    <dimen name="deptButthonW">250dp</dimen>
+    <dimen name="deptButthonMarTop">7dp</dimen>
+
+    <dimen name="cal1">5dp</dimen>
+    <dimen name="cal2">10dp</dimen>
+    <dimen name="cal3">15dp</dimen>
+
+    <dimen name="ten">10dp</dimen>
+    <dimen name="three">3dp</dimen>
+    <dimen name="twntyfv">25dp</dimen>
+    <dimen name="fyvthrty">530dp</dimen>
+
+    <dimen name="inw1">100dp</dimen>
+    <dimen name="inw2">150dp</dimen>
+    <dimen name="inw3">125dp</dimen>
+
+    <dimen name="calInH">40dp</dimen>
+
+    <dimen name="selSecScr">40dp</dimen>
+
+    <dimen name="res">30dp</dimen>
+
+    <dimen name="mainMOpsMar">7dp</dimen>
+
+    <dimen name="part1">267dp</dimen>
+
+</resources>

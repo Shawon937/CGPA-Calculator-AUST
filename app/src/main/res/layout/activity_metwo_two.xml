@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/lightGreen"
+    tools:context="com.example.siam_ansary.austgpacalculator00.MEOneOne">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="@string/er"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME22IDread"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="@string/ssn"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME22Session"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten"
+                android:text="@string/em"
+                android:textColor="@color/brown"
+                android:textSize="@dimen/txtsz01" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="ME 2203:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME2203read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="Math 2207:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/MEMath2207read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="Hum 2207:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/MEHum2207read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="ME 3103:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME3103read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2285:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/MEEEE2285read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="ME 2204:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME2204read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="ME 2210:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME2210read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="ME 3100:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/ME3100read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2286:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/MEEEE2286read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/silver"
+        android:onClick="ME22"
+        android:text="@string/gpa"
+        android:textSize="@dimen/txtsz01"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

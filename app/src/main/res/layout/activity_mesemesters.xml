@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/cal6"
+    tools:context="com.example.siam_ansary.austgpacalculator00.CivilSemesters">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ss"
+        android:textColor="@color/brown"
+        android:textSize="@dimen/txtsz01"
+        android:textStyle="italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/archiTH"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/archiSH"
+                android:layout_marginBottom="@dimen/deptMargin"
+                android:layout_marginTop="@dimen/deptMargin">
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:layout_marginRight="@dimen/archiMargin"
+                    android:background="@color/lb"
+                    android:onClick="MEOneOne"
+                    android:text="@string/one1" />
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:background="@color/llb"
+                    android:onClick="MEOneTwo"
+                    android:text="@string/one2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/archiSH"
+                android:layout_marginBottom="@dimen/deptMargin"
+                android:layout_marginTop="@dimen/deptMargin">
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:layout_marginRight="@dimen/archiMargin"
+                    android:background="@color/llb"
+                    android:onClick="METwoOne"
+                    android:text="@string/two1" />
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:background="@color/lb"
+                    android:onClick="METwoTwo"
+                    android:text="@string/two2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/archiSH"
+                android:layout_marginBottom="@dimen/deptMargin"
+                android:layout_marginTop="@dimen/deptMargin">
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:layout_marginRight="@dimen/archiMargin"
+                    android:background="@color/lb"
+                    android:onClick="METhreeOne"
+                    android:text="@string/three1" />
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:background="@color/llb"
+                    android:onClick="METhreeTwo"
+                    android:text="@string/three2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/archiSH"
+                android:layout_marginBottom="@dimen/deptMargin"
+                android:layout_marginTop="@dimen/deptMargin">
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:layout_marginRight="@dimen/archiMargin"
+                    android:background="@color/llb"
+                    android:onClick="MEFourOne"
+                    android:text="@string/four1" />
+
+                <Button
+                    android:layout_width="@dimen/archiW"
+                    android:layout_height="@dimen/archiH"
+                    android:background="@color/lb"
+                    android:onClick="MEFourTwo"
+                    android:text="@string/four2" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

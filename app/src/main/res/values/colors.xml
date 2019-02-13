@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000</color>
+    <color name="txt01">#fbfbfc</color>
+    <color name="txtBack01">#08433d</color>
+    <color name="brown">#8B4513</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="lightYellow">#FFFF99</color>
+    <color name="deepY">#f7d308</color>
+    <color name="lY">#f0f1c0</color>
+    <color name="lb">#2f7aea</color>
+    <color name="llb">#a7bad6</color>
+    <color name="pink">#ffb6c1</color>
+
+    <color name="cal1">#1a60b1</color>
+    <color name="cal2">#0d0d0d</color>
+
+    <color name="cal3">#7c6e11</color>
+    <color name="cal4">#f5f5f3</color>
+
+    <color name="cal5">#046e1b</color>
+    <color name="cal6">#e1dfa6</color>
+
+    <color name="cal7">#f7f4f4</color>
+    <color name="cal8">#c9da7a</color>
+
+    <color name="lightGreen">#c3eda8</color>
+    <color name="lightPurple">#dccce9</color>
+
+
+    <color name="calculatorBack">#ab9a9a</color>
+</resources>

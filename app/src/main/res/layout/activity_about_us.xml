@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padTBLR"
+    android:paddingLeft="@dimen/padTBLR"
+    android:paddingRight="@dimen/padTBLR"
+    android:paddingTop="@dimen/padTBLR"
+    android:background="@color/llb"
+    tools:context=".AboutUS">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="@dimen/three"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fyvthrty"
+            android:id="@+id/aboutUS"
+            android:textColor="@color/brown"
+            android:textSize="@dimen/twntyfv"
+            android:text="@string/us"
+            />
+
+    </ScrollView>
+
+</RelativeLayout>

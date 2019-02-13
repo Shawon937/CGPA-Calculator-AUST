@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightYellow"
+    android:paddingBottom="@dimen/padTBLR"
+    android:paddingLeft="@dimen/padTBLR"
+    android:paddingRight="@dimen/padTBLR"
+    android:paddingTop="@dimen/padTBLR"
+    tools:context=".GpaArch11">
+
+    <TextView
+        android:layout_marginTop="@dimen/ten"
+        android:id="@+id/grad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/lightYellow"
+        android:textColor="@color/brown"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="save"
+        android:textSize="@dimen/txtsz01"
+        android:onClick="saveData"
+        android:background="#f7d308"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveDoneIndicateArch11"
+            android:textSize="@dimen/txtsz02"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

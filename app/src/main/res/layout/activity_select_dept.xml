@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padTBLR"
+    android:paddingLeft="@dimen/padTBLR"
+    android:paddingRight="@dimen/padTBLR"
+    android:paddingTop="@dimen/padTBLR"
+    android:background="@color/lightYellow"
+    tools:context="com.example.siam_ansary.austgpacalculator00.SelectDept">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your department:"
+        android:textSize="@dimen/txtsz01"
+        android:textColor="@color/black"
+        android:id="@+id/depts"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/depts">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptArchi"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectArchi"
+                android:background="@color/silver"
+
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptBBA"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="BBA"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectBBA"
+                android:background="@color/brown"
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptCivil"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="Civil Engg"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectCivil"
+                android:background="@color/silver"
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptCSE"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="CSE"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectCSE"
+                android:background="@color/brown"
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptEEE"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="EEE"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectEEE"
+                android:background="@color/silver"
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptIPE"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="IPE"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectIPE"
+                android:background="@color/brown"
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptME"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="Mechanical Engg"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectME"
+                android:background="@color/silver"
+                />
+
+            <Button
+
+                android:layout_marginTop="@dimen/diffInDeptSelAct"
+                android:id="@+id/deptTEX"
+                android:layout_width="@dimen/deptButthonW"
+                android:layout_height="wrap_content"
+                android:text="Textile Engg"
+                android:textStyle="normal"
+                android:textColor="@color/txt01"
+                android:textSize="@dimen/txtsz01"
+                android:onClick="selectTEX"
+                android:background="@color/brown"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

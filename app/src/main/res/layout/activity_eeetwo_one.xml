@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/lightGreen"
+    tools:context="com.example.siam_ansary.austgpacalculator00.EEEOneOne">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="@string/er"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE21IDread"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="@string/ssn"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE21Session"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten"
+                android:text="@string/em"
+                android:textColor="@color/brown"
+                android:textSize="@dimen/txtsz01" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2103:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE2103read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2104:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE2104read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2105:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE2105read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2106:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE2106read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2109:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE2109read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="EEE 2110:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEE2110read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="Math2103:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEEMath2103read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="Hum 2109:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEEHum2109read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="Hum 2110:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/EEEHum2110read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/silver"
+        android:onClick="EEE21"
+        android:text="@string/gpa"
+        android:textSize="@dimen/txtsz01"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

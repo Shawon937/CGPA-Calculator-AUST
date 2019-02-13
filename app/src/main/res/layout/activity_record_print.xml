@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padTBLR"
+    android:paddingLeft="@dimen/padTBLR"
+    android:paddingRight="@dimen/padTBLR"
+    android:paddingTop="@dimen/padTBLR"
+    android:background="@color/lightYellow"
+    tools:context="com.example.siam_ansary.austgpacalculator00.RecordPrint">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="RECORDS:"
+        android:textSize="@dimen/txtsz01"
+        android:id="@+id/RCRD"
+        android:textColor="@color/brown"
+        />
+
+   <ListView
+       android:layout_below="@id/RCRD"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/showGpas">
+
+   </ListView>
+
+</RelativeLayout>

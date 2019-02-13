@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/lightGreen"
+    tools:context="com.example.siam_ansary.austgpacalculator00.BBAFourOne">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="@string/er"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA41IDread"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="@string/ssn"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA41Session"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten"
+                android:text="@string/em"
+                android:textColor="@color/brown"
+                android:textSize="@dimen/txtsz01" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="BBA 401:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA401read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="BBA 403:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA403read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="BBA 405:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA405read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="BBA 407:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA407read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ten"
+                    android:text="BBA 409:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txtsz01" />
+
+                <EditText
+                    android:id="@+id/BBA409read"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/silver"
+        android:onClick="BBA41"
+        android:text="@string/gpa"
+        android:textSize="@dimen/txtsz01"
+        android:textStyle="bold" />
+
+</RelativeLayout>
